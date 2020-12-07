@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>TODO list</title>
+
+    <style>
+        body{
+            background-color:#ede395;
+        }
+        .filtered{
+            display: none !important;
+        }
+        h4{
+            color: white;
+            background-color:#a86732;
+        }
+        .list{
+            background-color:#a88132;
+            border: 1px solid transparent;
+            border-radius: 20px;
+            margin:2px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+
+<header>
+        <h4 class="display-4 text- text-center  py-2">TO DO LIST</h4>
+    </header>
+
+        <form class="search">
+            <input class="form-control m-auto " type="text" name="search" placeholder="search todos" style="background-color: #d6cb78;">
+
+        </form>
+
+
+        <ul class="list-group todos  my-3 text-dark">
+            <li class="list-group-item list d-flex justify-content-between">
+                <span style="color: thistle; font-size: larger; "> hello world</span> <i class="fas fa-trash-alt delete"></i> </li>
+                
+                
+
+
+                    
+          </ul>
+
+          <form class="add text-center my-3">
+              <label class="text-dark" > Add A new todo....</label>
+
+              <input class="form-control m-auto" type="text" name="add" style="background-color: #d6cb78;"/>
+          </form>
+
+    </div>    <!--div container  -->
+  
+    
+
+
+
+    <script src="todo.js">
+
+    </script>
+</body>
+</html>
